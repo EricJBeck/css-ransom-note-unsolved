@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Manufacturing+Consent&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   padding: 0;
@@ -53,7 +56,9 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter,
+.gardeningALetter,
+.improveILetter {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
@@ -62,7 +67,9 @@ body {
   font-family: 'Piazolla', sans-serif;
 }
 
-.whyHLetter {
+.whyHLetter,
+.becauseBLetter,
+.improveRLetter  {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
@@ -71,7 +78,11 @@ body {
   font-family: 'Ceviche One', sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter,
+.skillsLLetter,
+.becauseCLetter,
+.theyTLetter,
+.skillsLTwoLetter {
   font-size: 60px;
   font-weight: normal;
   color: coral;
@@ -82,223 +93,183 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.frontendFLetter,
+.developerVLetter,
+.improveOLetter,
+.theirHLetter,
+.rootRLetter  {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
 }
 
-.didILetter {
+.didILetter,
+.rootOLetter,
+.becauseSLetter,
+.developerPLetter,
+.wantedWLetter {
+  font-family: "Roboto Condensed", sans-serif;
+  color:chocolate
 }
 
-.didDTwoLetter {
+.didDTwoLetter,
+.frontendRLetter,
+.frontendNTwoLetter,
+.theirTLetter,
+.skillsSTwoLetter   {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #dc143c;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter, 
+.upPLetter,
+.takeTLetter,
+.improveMLetter {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: x-small;
+  color: #dc143c;
+  font-weight: 700;
 }
 
-.theHLetter {
+.theHLetter,
+.gardeningELetter,
+.gardeningGLetter,
+.theirELetter,
+.skillsSLetter {
+  font-size: medium;
+  color: #006400;
 }
 
-.theELetter {
+.theELetter,
+.developerDLetter,
+.toTLetter,
+.theirILetter   {
+  font-size: large;
+  color: aqua;
+  font-weight: 300;
 }
 
 /* FRONT-END word */
 
-.frontendFLetter {
+.frontendOLetter,
+.gardeningDLetter,
+.developerLLetter,
+.improvePLetter {
+  text-decoration: line-through;
+  color: #a52a2a;
 }
 
-.frontendRLetter {
+.frontendNLetter,
+.developerELetter,
+.theyHLetter {
+  text-decoration: overline;
+  color: antiquewhite;
+  font-size: 59px;
 }
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
+.frontendELetter,
+.takeELetter,
+.wantedDLetter,
+.improveELetter {
+  font-weight: normal;
+  color: rgb(70, 130, 180);
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
+.developerETwoLetter,
+.developerOLetter,
+.becauseALetter,
+.theirRLetter  {
+  text-decoration: overline;
+  color: rgb(178, 34, 34);
 }
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
+
+.developerEThreeLetter,
+.becauseULetter,
+.gardeningGTwoLetter,
+.rootOTwoLetter   {
+  font-size: 60px;
+  color: hsl(300, 100%, 27%);
 }
 
 /* TAKE word */
 
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
+.takeKLetter,
+.wantedNLetter,
+.wantedALetter,
+.skillsILetter  {
+  font-weight: 700;
+  color: rgb(123, 104, 238);
 }
 
 /* GARDENING word */
 
-.gardeningGLetter {
+.gardeningRLetter,
+.becauseETwoLetter,
+.frontendTLetter  {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f8f8ff;
 }
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+
+.gardeningNLetter,
+.developerRLetter,
+.wantedELetter,
+.improveVLetter  {
+  font-weight: 200;
+  color: #ff69b4;
+  text-decoration: none;
 }
 
 /* BECAUSE word */
 
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
+.becauseELetter,
+.takeALetter,
+.frontendDLetter,
+.upULetter,
+.rootTLetter {
+  color: rgba(83, 165, 152, 0.2);
+  font-weight: 800;
 }
 
 /* THEY word */
 
-.theyTLetter {
+.theyELetter,
+.gardeningNTwoLetter,
+.hyphen,
+.skillsKLetter {
+  color: #800080;
+  font-weight: 900;
 }
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
+.theyYLetter,
+.question-mark,
+.toOLetter {
+  color: hsl(160, 100%, 75%);
+  font-size: x-large;
 }
 
 /* WANTED word */
 
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
+.wantedTLetter,
+.exclamation-mark,
+.gardeningILetter {
+  color: hwb(60 86% 4%);
+  font-size: xx-large;
 }
 
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
+.bold {
+  font-weight: bold;
 }
 
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
+.blood {
+  font-family: "Manufacturing Consent", system-ui;
+  color: #c80707;
+  text-shadow: 5px 5px #dc143c;
+  font-weight: 600;
 }
